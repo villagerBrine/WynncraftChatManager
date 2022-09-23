@@ -1,0 +1,18 @@
+[
+  {
+    "modid": "WynncraftCustomMod",
+    "name": "WynncraftCustomMod",
+    "description": "",
+    "version": "$1.0",
+    "mcversion": "$1.12.2",
+    "url": "",
+    "updateUrl": "",
+    "authorList": [
+      "villagerBrine"
+    ],
+    "credits": "",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": []
+  }
+]
