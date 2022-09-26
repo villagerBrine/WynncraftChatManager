@@ -1,6 +1,6 @@
 # WynncraftChatChanger
-Allows you to customize the guild and party chat of Wynncraft.
-Adds Hypixel commands to Wynncraft.
+- Adds Hypixel commands to Wynncraft.  
+- Allows you to customize the guild and party chat of Wynncraft.  
 
 ## Commands
 ### Chat
