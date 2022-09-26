@@ -9,7 +9,7 @@ import static villagerbrine.wynncraftchatswitcher.WynnCraftChatSwitcher.chatconf
 public class chatConfig {
     public static String guildTypeUsing = "one";
     public static String partyMessage = ChatFormatting.BLUE + "Party" + ChatFormatting.WHITE + " > "+ " {NAME}" + ChatFormatting.RESET + ": " + "{MESSAGE}";
-    public static String guildMessage = ChatFormatting.DARK_AQUA + "[" + ChatFormatting.WHITE + " " + "{RANK}" + " " +  "{NAME}" + ChatFormatting.AQUA + "]:" + ChatFormatting.RESET  + "{MESSAGE}";
+    public static String guildMessage = ChatFormatting.DARK_AQUA + "[" + ChatFormatting.WHITE + " " + "{RANK}" + " " +  "{NAME}" + ChatFormatting.DARK_AQUA + " " + "]:" + ChatFormatting.RESET  + "{MESSAGE}";
     public static String recruitTypeOne = ChatFormatting.GREEN + "\u2727";
     public static String recruiterTypeOne = ChatFormatting.AQUA + "\u272e";
     public static String captainTypeOne = ChatFormatting.BLUE + "\u2732";
