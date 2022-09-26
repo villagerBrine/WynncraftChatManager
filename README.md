@@ -1,6 +1,6 @@
 # WynncraftChatChanger
-- Adds Hypixel commands to Wynncraft.  
-- Allows you to customize the guild and party chat of Wynncraft.  
+- Adds Hypixel commands to Wynncraft  
+- Allows you to customize the guild and party chat of Wynncraft  
 
 ## Commands
 ### Chat
@@ -14,7 +14,7 @@
 
 ### Config
 /recc OR /reloadchatconfig; Refresh settings  
-/rt; Changes rank prefix between the two you have registered (default is icons/prefixes)  
+/rt; Changes rank prefix between the two that are registered (default is icons/prefixes)  
 
 ### Prototype (not currently working)
 /p leave; Leaves a party  
