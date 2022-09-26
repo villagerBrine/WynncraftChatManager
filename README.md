@@ -14,4 +14,8 @@
 
 ### Config
 /recc OR /reloadchatconfig; Refresh settings  
-/rt; Changes rank prefix between the two you have registered (default is icons/words)  
+/rt; Changes rank prefix between the two you have registered (default is icons/prefixes)  
+
+### Prototype (not currently working)
+/p leave; Leaves a party
+/ccc; Change chat configs (color, prefix, etc.) (edits config file ingame)
