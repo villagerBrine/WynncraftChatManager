@@ -10,30 +10,35 @@ import javax.annotation.Nullable;
 import java.util.ArrayList;
 import java.util.List;
 
-import static villagerbrine.wynncraftchatswitcher.Chat.MessageSenderListener.chatSendMessage;
-import static villagerbrine.wynncraftchatswitcher.WynnCraftChatSwitcher.getMinecraftServer;
+import static villagerbrine.wynncraftchatswitcher.WynnCraftChatSwitcher.chatconfig;
 
-public class PartyLeaveChatCommand implements ICommand {
+public class ReloadConfig implements ICommand {
     @Override
     public String getName() {
-        return "p leave";
+        return "reloadchatconfig";
     }
 
     @Override
     public String getUsage(ICommandSender sender) {
-        return "p leave";
+        return "reloadchatconfig";
     }
 
     @Override
     public List<String> getAliases() {
         List<String> list = new ArrayList<>();
-        list.add("p leave");
+        list.add("recc");
         return list;
     }
 
     @Override
     public void execute(MinecraftServer server, ICommandSender sender, String[] args) throws CommandException {
-        chatSendMessage.add("/party leave");
+        try {
+            chatconfig.load();
+        } catch (Exception e) {
+            System.out.println("ChatSwitcher could not get config!");
+        } finally {
+            chatconfig.save();
+        }
     }
 
     @Override
@@ -45,7 +50,6 @@ public class PartyLeaveChatCommand implements ICommand {
     public List<String> getTabCompletions(MinecraftServer server, ICommandSender sender, String[] args, @Nullable BlockPos targetPos) {
         return null;
     }
-
 
     @Override
     public boolean isUsernameIndex(String[] args, int index) {

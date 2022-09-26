@@ -4,7 +4,7 @@ plugins {
 
 
 group = 'villagerBrine'
-version = '1.0'
+version = 'BETA-1.0'
 
 java {
     archivesBaseName = 'WynnCraftChatSwitcher'
